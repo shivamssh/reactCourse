@@ -1,1 +1,3 @@
 ./history
+./node_module
+./parcel_cache
