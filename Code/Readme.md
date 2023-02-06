@@ -49,4 +49,6 @@ Q.11- What is props in React? Ways to.
 A -  Props are used in React to pass data from one component to another ie.e parent to child component.
 
 Q.12 - What is Config Driven UI?
-A - 
+A - Config driven UI is concept used to built and run app using config provided.
+This can be based off location prefrence. country prefrence.
+ex. Food ordering app renders their hotel list based of customer's current location this is known as config driven UI.
