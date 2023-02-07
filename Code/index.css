@@ -28,7 +28,9 @@
 .card {
           width: 200px;    
           border: 1px solid #000;
-          margin: 6px;
+          margin-top: 6px;
+          margin-right: 6px;
+          margin-bottom: 6px;
           padding: 0px 15px;
 }
 
