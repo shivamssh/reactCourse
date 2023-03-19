@@ -1,5 +1,5 @@
 import { useRouteError } from 'react-router-dom';
-
+// For error ( navigtion at non exist page )
 const DefaultError = () => {
           const errDetails = useRouteError();
           return (
