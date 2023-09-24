@@ -1,52 +1,70 @@
 .header {
-          display: flex;
-          justify-content: space-between;
-          border: 1px solid orange;
-          margin-left: 0;
-          margin-bottom: 7px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid orange;
+  margin-left: 0;
+  margin-bottom: 7px;
+}
+
+.footer {
+  width: 100%;
+  background-color: orange;
+  position: fixed;
+  bottom: 0;
+  overflow: hidden;
 }
 
 .nav-items > ul {
-          list-style-type: none;
-          display: flex;
+  list-style-type: none;
+  display: flex;
 }
 
 .nav-items > ul > li {
-          padding: 10px;
+  padding: 10px;
 }
 
 .logo {
-          width: 4rem;
-          height: -webkit-fill-available;
+  width: 4rem;
+  height: -webkit-fill-available;
 }
 
 .restaurent-list {
-          display: flex;
-          flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .card {
-          width: 200px;    
-          margin-top: 6px;
-          margin-right: 6px;
-          margin-bottom: 6px;
-          padding-right: 15px;
+  width: 200px;
+  margin-top: 6px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+  padding-right: 15px;
 }
 
 .card > img {
-          width: 100%;    
-    }
+  width: 100%;
+}
+
+.card-col {
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.card-float-l {
+  float: left;
+}
 
 .card-shimmer {
-      width: 200px;
-      margin-top: 6px;
-      margin-bottom: 6px;
-      margin-right: 6px;
-      padding: 0 15px;
-      height: 10rem;
-      background: lightgray;
+  width: 200px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  margin-right: 6px;
+  padding: 0 15px;
+  height: 10rem;
+  background: lightgray;
 }
 
 .p-1 {
-      padding-right: 1rem;
+  padding-right: 1rem;
 }

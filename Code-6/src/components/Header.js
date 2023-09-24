@@ -20,15 +20,21 @@ const HeaaderComponent = () => {
                                                   <Link to="/" className='p-1'>
                                                             <li>Home</li>
                                                   </Link>
+
                                                   <Link to="/aboutus" className='p-1'>
                                                             <li>About</li>
                                                   </Link>
+                                                  
                                                   <Link to="/" className='p-1'>                                                  
                                                             <li>Contact</li>
                                                   </Link>
 
                                                   <Link to="/" className='p-1'>
                                                             <li>Cart</li>
+                                                  </Link>
+
+                                                  <Link to="/instamart" className='p-1'>
+                                                            <li>Instamart</li>
                                                   </Link>
                                         </ul>
                               </div>
